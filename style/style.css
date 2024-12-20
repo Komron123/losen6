@@ -1,0 +1,69 @@
+body {
+    background-color: palevioletred;
+    padding: 100px;
+}
+.main {
+    background-color: white;
+    height: 110vh;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.box {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+}
+.card {
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: orange;
+    border-radius: 10px;
+}
+.box1 {
+    gap: 10px;
+}
+.box2 {
+    flex-direction: column;
+    gap: 10px;
+}
+.box3 {
+    justify-content: space-evenly
+}
+.box4 {
+    justify-content: space-between;
+}
+.box5 {
+    gap: 10px;
+}
+.box6 {
+    justify-content: end;
+    gap: 10px;
+}
+.box7 {
+    justify-content: center;
+    gap: 10px;
+}
+.box8 {
+    justify-content: space-between;
+}
+.box9 {
+    gap: 10px;
+}
+.box10 {
+    align-items: end;
+    gap: 10px;
+}
+.box11 {
+    align-items: center;
+    gap: 10px;
+}
+.box12 {
+    justify-content: space-between;
+}
